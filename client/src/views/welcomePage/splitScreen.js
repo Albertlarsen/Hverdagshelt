@@ -25,7 +25,7 @@ export class splitScreen extends React.Component<Props, State> {
               <p> Privatperson </p>
             </div>
           </a>
-          <a href={'/#/registrer/privat'}>
+          <a href={'/#/registrer/bedrift'}>
             <div className="col-lg-6 col-sm-12 right">
               <p> Bedrift </p>
             </div>

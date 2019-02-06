@@ -44,11 +44,7 @@ app.use(express.json()); // For parsing application/json
 // connect to database
 let pool = mysql.createPool({
   connectionLimit: 10,
-  host: "mysql.stud.iie.ntnu.no",
-  user: "annabesa",
-  password: "fMxJCDSo",
-  database: "annabesa",
-  debug: false
+  // INSERT YOUR DATABASE
 });
 
 let userDao = new UserDao(pool);

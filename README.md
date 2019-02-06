@@ -1,4 +1,4 @@
-# Example client-server application using a client service object
+# Client-Server Application using a client service object
 The application will reload on source changes.
 
 ## Client: run tests and start

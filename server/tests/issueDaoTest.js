@@ -16,12 +16,7 @@ import {EmployeeDao} from '../src/daos/employeeDao';
 // GitLab CI Pool
 let pool = mysql.createPool({
   connectionLimit: 1,
-  host: "mysql.stud.iie.ntnu.no",
-  user: "aadneny",
-  password: "W9d7XVXV",
-  database: "aadneny",
-  debug: false,
-  multipleStatements: true
+  //INSERT YOUR DATABASE
 });
 
 
